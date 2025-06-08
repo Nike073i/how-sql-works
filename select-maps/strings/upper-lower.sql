@@ -1,0 +1,1 @@
+SELECT UPPER('sss'), LOWER('WWW');

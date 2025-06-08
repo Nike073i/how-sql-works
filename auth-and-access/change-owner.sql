@@ -1,0 +1,1 @@
+ALTER DATABASE dbname OWNER TO username;
