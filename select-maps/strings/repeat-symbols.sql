@@ -1,0 +1,1 @@
+SELECT REPEAT('abv', 6);
