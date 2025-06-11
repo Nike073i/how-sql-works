@@ -17,7 +17,7 @@ ALTER TABLE post_exers.bookings
     ADD CONSTRAINT bookings_fk_member FOREIGN KEY (member_id) REFERENCES post_exers.members (id);
 
 ALTER TABLE post_exers.members
-    ADD CONSTRAINT fk_members_recommendedby FOREIGN KEY (recommendedby) REFERENCES members(memid) ON DELETE SET NULL;
+    ADD CONSTRAINT fk_members_recommended_by FOREIGN KEY (recommended_by) REFERENCES post_exers.members(id) ON DELETE SET NULL;
 
 CREATE INDEX bookings_idx_member_id_facility_id
     ON post_exers.bookings
