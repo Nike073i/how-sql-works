@@ -1,0 +1,1 @@
+SELECT TO_NUMBER('123a','999');

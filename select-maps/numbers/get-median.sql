@@ -1,0 +1,1 @@
+SELECT PERCENTILE_CONT(0.5) WITHIN GROUP (ORDER BY monthly_maintenance) FROM post_exers.facilities;
